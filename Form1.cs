@@ -41,7 +41,7 @@ namespace WindowsFormsApp2
 
             foreach (string month in monthList)
             {
-                comboBox2.Items.Add(monthList.ToString());
+                comboBox2.Items.Add(month.ToString());
             }
             for (int i = 1900; i <= 2024; i++)
             {
@@ -58,7 +58,7 @@ namespace WindowsFormsApp2
 
             foreach (string program in programList)
             {
-                comboBox4.Items.Add(programList.ToString());
+                comboBox4.Items.Add(program.ToString());
             }
 
 
